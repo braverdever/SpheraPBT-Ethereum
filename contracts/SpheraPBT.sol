@@ -9,7 +9,7 @@ error MintNotOpen();
 error CannotMakeChanges();
 error CannotUpdateDeadline();
 
-contract SpheraPBT is PBTRandom, Ownable {
+contract SpheraVault is PBTRandom, Ownable {
     constructor(
         string memory name_,
         string memory symbol_,
